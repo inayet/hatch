@@ -378,7 +378,7 @@ jobs:
     # We use the artifact from the latest scheduled nightly job because installing
     # with Cargo from scratch takes ~10 minutes
     - name: Install rcodesign
-      uses: dawidd6/action-download-artifact@v2
+      uses: dawidd6/action-download-artifact@v6
       with:
         repo: indygreg/apple-platform-rs
         workflow: rcodesign.yml
